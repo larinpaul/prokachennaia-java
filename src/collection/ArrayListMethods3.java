@@ -81,6 +81,49 @@ public class ArrayListMethods3 {
         int studentIndex = studentList2.indexOf(st16);
         System.out.println(studentIndex); // 4
 
+        ArrayList<String> arrayList4 = new ArrayList<>();
+        arrayList4.add("Zaur");
+        arrayList4.add("Ivan"); // Если у нас два Ивана, то будет выводиться позиция только первого
+        arrayList4.add("Mariya");
+        arrayList4.add("Ivan");
+        System.out.println(arrayList4); // [Zaur, Ivan, Mariya, Ivan]
+        System.out.println(arrayList4.indexOf("Ivan")); // 1
+        // А еще есть метод ластИндексОф, он находит ПОСЛЕДНЕЕ совпадение! То есть поиск идет уже с правой стороны
+        // lastIndexOf(Object element) -> int
+        System.out.println(arrayList4.lastIndexOf("Ivan")); // 3
+
+        // Следующий метод - это уже известный нам метод size()
+        // size() -> int
+        System.out.println(arrayList4.size()); // 4
+
+        // Ещё есть метод isEmpty(), true если пуст и false если не пуст
+        // isEmpty() -> boolean
+        System.out.println(arrayList4.isEmpty()); // false
+        System.out.println(arrayList1.isEmpty()); // true
+        arrayList3.clear();
+        System.out.println(arrayList3.isEmpty()); // true
+
+
+        // Следующий метод проверяет, содержит ли наш аррэй лист какой-то элемент
+        // Здесь так же используется метод equals() как и в других методах
+        // Здесь также используется метод equals()
+        // contains(Object element) -> boolean
+        boolean status = studentList2.contains(st16);
+        System.out.println(status); // true
+        boolean status2 = studentList2.contains(st6);
+        System.out.println(status2); // false
+        System.out.println(arrayList4.contains("Kolya")); // false
+        System.out.println(arrayList4.contains("Ivan")); // true
+        System.out.println(arrayList4.contains("Mariya")); // true
+        System.out.println(arrayList1.contains("Mariya")); // false
+
+
+        // Ну а этом метод понятно, имеется у всех классов
+        // Этот метод можно писать, а можно не писать
+        // toString -> String
+        System.out.println(arrayList4.toString()); // [Zaur, Ivan, Mariya, Ivan]
+        System.out.println(arrayList4); // [Zaur, Ivan, Mariya, Ivan]
+        // Когда мы выводим на экран ArrayList или любой другой объект, то он будет по умолчанию вызываться
 
     }
 

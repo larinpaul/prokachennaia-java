@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aecb5587-34bf-48f0-b443-adbfa569d82f" name="Changes" comment="Урок 3 - Методы ArrayList. Часть 1 (прокачанная Java)">
-      <change afterPath="$PROJECT_DIR$/src/collection/ArrayListMethods3.java" afterDir="false" />
+    <list default="true" id="aecb5587-34bf-48f0-b443-adbfa569d82f" name="Changes" comment="Урок 4 - Методы ArrayList. Часть 2 (прокаченная Java)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/ArrayListMethods3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/ArrayListMethods3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,12 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711778905999</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Урок 4 - Методы ArrayList. Часть 2 (прокаченная Java)">
+      <option name="closed" value="true" />
+      <created>1711860154693</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711860154693</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Collections framework" />
     <MESSAGE value="Урок 3 - Методы ArrayList. Часть 1 (прокачанная Java)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 3 - Методы ArrayList. Часть 1 (прокачанная Java)" />
+    <MESSAGE value="Урок 4 - Методы ArrayList. Часть 2 (прокаченная Java)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 4 - Методы ArrayList. Часть 2 (прокаченная Java)" />
   </component>
 </project>
