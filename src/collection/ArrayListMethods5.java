@@ -65,6 +65,15 @@ public class ArrayListMethods5 {
         // Теперь из этого аррэй листа создадим отрывок и будем помещать его в лист
         List<String> myList = arrayList11.subList(1, 4); // Второй параметр не включен, поэтому если мы хотим до 3 параметра, то мы пишем 4
         System.out.println(myList); // [Ivan, Mariya, Kolya]
+        // Теперь интересный момент.
+        // На самом деле этот саблист myList не существует в отдельности от того листа...
+        // Он лишь является его представлением (view).
+        // То есть это не отдельная какая-то сущность...
+        // Чтобы увидеть, что это не какая-то отдельная сущность,
+        // давайте попробуем добавить в саблист отдельный элемент
+        myList.add("Fedor");
+        System.out.println(myList);// [Ivan, Mariya, Kolya, Fedor]
+        System.out.println(arrayList11); // [Zaur, Ivan, Mariya, Kolya, Fedor, Elena]
 
 
     }
