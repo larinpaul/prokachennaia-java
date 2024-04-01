@@ -60,11 +60,11 @@ public class ArrayListMethods5 {
         arrayList11.add("Ivan"); // 1
         arrayList11.add("Mariya"); // 2
         arrayList11.add("Kolya"); // 3
-        arrayList11.add("Elena"); // 4й не включен
-        System.out.println(arrayList11); // [Zaur, Ivan, Mariya, Kolya, Elena]
+        arrayList11.add("Elena"); // 4-й не включен
+        System.out.println("ArrayLIst = " + arrayList11); // [Zaur, Ivan, Mariya, Kolya, Elena]
         // Теперь из этого аррэй листа создадим отрывок и будем помещать его в лист
         List<String> myList = arrayList11.subList(1, 4); // Второй параметр не включен, поэтому если мы хотим до 3 параметра, то мы пишем 4
-        System.out.println(myList); // [Ivan, Mariya, Kolya]
+        System.out.println("Sub list = " + myList); // [Ivan, Mariya, Kolya]
         // Теперь интересный момент.
         // На самом деле этот саблист myList не существует в отдельности от того листа...
         // Он лишь является его представлением (view).
@@ -72,8 +72,8 @@ public class ArrayListMethods5 {
         // Чтобы увидеть, что это не какая-то отдельная сущность,
         // давайте попробуем добавить в саблист отдельный элемент
         myList.add("Fedor");
-        System.out.println(myList);// [Ivan, Mariya, Kolya, Fedor]
-        System.out.println(arrayList11); // [Zaur, Ivan, Mariya, Kolya, Fedor, Elena]
+        System.out.println("Sub list = " + myList);// [Ivan, Mariya, Kolya, Fedor]
+        System.out.println("ArrayLIst = " + arrayList11); // [Zaur, Ivan, Mariya, Kolya, Fedor, Elena]
 
 
     }
