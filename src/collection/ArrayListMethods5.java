@@ -73,7 +73,20 @@ public class ArrayListMethods5 {
         // давайте попробуем добавить в саблист отдельный элемент
         myList.add("Fedor");
         System.out.println("Sub list = " + myList);// [Ivan, Mariya, Kolya, Fedor]
-        System.out.println("ArrayLIst = " + arrayList11); // [Zaur, Ivan, Mariya, Kolya, Fedor, Elena]
+        System.out.println("ArrayList = " + arrayList11); // [Zaur, Ivan, Mariya, Kolya, Fedor, Elena]
+        // Теперь добавим не с помощью саблиста, а с помощью самого листа
+        arrayList11.add("Sveta");
+        System.out.println("ArrayList = " + arrayList11); // [Zaur, Ivan, Mariya, Kolya, Fedor, Elena, Sveta]
+        // А вот что происходит когда я пытаюсь вывести саблист...
+//        System.out.println("Sub list = " + myList);// [Ivan, Mariya, Kolya, Fedor]
+        // Выкидывается java.util.ConcurrentModificationException!
+        // Потому что все наши структурные модификации должны быть сделаны с помощью нашего view!
+        // Если мы делаем модификацию над аррей листтом напрямую и потом пытаемся использовать представление (саблист), мы не получим нужный нам результат...
+
+        // toArray()
+        // toArray() -> Object[]
+        // С помощью туАррэй мы из нашего аррэй листа получаем массив типа обжект
+
 
 
     }

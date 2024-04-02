@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aecb5587-34bf-48f0-b443-adbfa569d82f" name="Changes" comment="Урок 5 - Методы ArrayList и связанные с ним методы. Часть 3 (прокаченная Java)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collection/ArrayListMethods5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/ArrayListMethods5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,21 +48,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayListEx1.executor": "Run",
-    "Application.ArrayListMethods1.executor": "Run",
-    "Application.ArrayListMethods2.executor": "Run",
-    "Application.ArrayListMethods3.executor": "Run",
-    "Application.ArrayListMethods4.executor": "Run",
-    "Application.ArrayListMethods5.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/paul/IdeaProjects/prokachennaia-java/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayListEx1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListMethods1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListMethods2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListMethods3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListMethods4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListMethods5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/paul/IdeaProjects/prokachennaia-java/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ArrayListMethods5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.ArrayListMethods5" />
@@ -147,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711949572998</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Урок 5 - Методы ArrayList и связанные с ним методы. Часть 3 (прокаченная Java)">
+      <option name="closed" value="true" />
+      <created>1711949848252</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711949848252</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Урок 5 - Методы ArrayList и связанные с ним методы. Часть 3 (прокаченная Java)">
+      <option name="closed" value="true" />
+      <created>1711950008085</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711950008085</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
