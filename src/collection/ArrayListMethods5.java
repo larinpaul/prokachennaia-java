@@ -75,8 +75,8 @@ public class ArrayListMethods5 {
         System.out.println("Sub list = " + myList);// [Ivan, Mariya, Kolya, Fedor]
         System.out.println("ArrayList = " + arrayList11); // [Zaur, Ivan, Mariya, Kolya, Fedor, Elena]
         // Теперь добавим не с помощью саблиста, а с помощью самого листа
-        arrayList11.add("Sveta");
-        System.out.println("ArrayList = " + arrayList11); // [Zaur, Ivan, Mariya, Kolya, Fedor, Elena, Sveta]
+//        arrayList11.add("Sveta");
+//        System.out.println("ArrayList = " + arrayList11); // [Zaur, Ivan, Mariya, Kolya, Fedor, Elena, Sveta]
         // А вот что происходит когда я пытаюсь вывести саблист...
 //        System.out.println("Sub list = " + myList);// [Ivan, Mariya, Kolya, Fedor]
         // Выкидывается java.util.ConcurrentModificationException!
