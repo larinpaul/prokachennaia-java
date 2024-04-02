@@ -7,6 +7,11 @@ public class ArrayListMethods5 {
 
     public static void main(String[] args) {
 
+        String[] arrayList = new String[]{"1", "2", "3"};
+        for (String s : arrayList) {
+            System.out.println(s);
+        }
+
         // removeAll(Collection <?> c) -> boolean
 
         ArrayList<String> arrayList1 = new ArrayList<>();
@@ -86,8 +91,77 @@ public class ArrayListMethods5 {
         // toArray()
         // toArray() -> Object[]
         // С помощью туАррэй мы из нашего аррэй листа получаем массив типа обжект
+        ArrayList<String> arrayList111 = new ArrayList<>();
+        arrayList111.add("Zaur");
+        arrayList111.add("Ivan");
+        arrayList111.add("Mariya");
+        arrayList111.add("Kolya");
+        arrayList111.add("Elena");
+        System.out.println("ArrayList = " + arrayList111);
+        Object[] array = arrayList111.toArray();
+        System.out.println(arrayList111); // [Zaur, Ivan, Mariya, Kolya, Elena]
+        System.out.println(array); // [Ljava.lang.Object;@2a84aee7]
 
+        // Но поскольку у нас не Object, а String, то куда логичнее использовать другой метод...
 
+        // toArray(T [] a) -> T []
+        String[] array2 = arrayList111.toArray(new String[5]);
+        for (String s : array2) {
+            System.out.println(s); // Zaur /n Ivan /n Mariya /n Kolya /n Elena
+        }
+        // А если мы укажем не 5, а например семь...
+        String[] array7 = arrayList111.toArray(new String[7]);
+        // То тогда мы увидим 5 наших элементов, а два оставшихся будут заполнены null
+        for (String s : array7) {
+            System.out.println(s); // Zaur/nIvan/nMariya/nKolya/nElena/nnull/nnull
+        }
+        // А если мы укажем на 5, а например 3,
+        // то джава достаточно умна, чтобы понять что в наш массив все элементы не влезают
+        // и она создаст массив необходимого размера...
+        String[] array3 = arrayList111.toArray(new String[3]);
+        for (String s : array3) {
+            System.out.println(s); // Zaur/nIvan/nMariya/nKolya/nElena
+        }
+        // При этом нельзя оставить new String[] пустым...
+        // Но можно использовать 0!
+        String[] array0 = arrayList111.toArray(new String[0]);
+        for (String s : array0) {
+            System.out.println(s); // Zaur/nIvan/nMariya/nKolya/nElena
+        }
+
+        // Ещё два метода, List.of() и List.copyOf
+        // List.of(E ... elements) -> List<E>
+        // List.copyOf(Collection <E> c) -> List<E>
+        // Эти методы вышли после 8 джавы
+
+        // Мы по-быстрому можем добавить элементы без метода list1.add
+        List<Integer> list1 = List.of(3, 8, 13);
+        System.out.println(list1); // [3, 8, 13]
+        // Видоизменять этот лист нельзя...
+//        list1.add(100); // java.lang.UncupportedOperationException
+        // При этом метод of сильно Overloaded... то есть существует много вариантов его написания, очень много разных аргументов можно передать
+
+        // И второй метод, List.copyOf(), он тоже статичный
+        // принимает параметрами коллекцию и возвращает тоже анмадифайабл лист
+        ArrayList<String> arrayList1111 = new ArrayList<>();
+        arrayList1111.add("Zaur");
+        arrayList1111.add("Ivan");
+        arrayList1111.add("Mariya");
+        arrayList1111.add("Kolya");
+        arrayList1111.add("Elena");
+
+        List<Integer> list1111 = List.of(3, 8, 13);
+        System.out.println(list1111);
+
+        List<String> list2222 = List.copyOf(arrayList1111);
+        System.out.println(list2222); // [Zaur, Ivan, Mariya, Kolya, ELena]
+        // И да, его модифицировать мы тоже не можем
+//        list2222.add("Test"); // UnsupportedOperationException
+        // Кроме того, что эти листы нельзя модифицировать,
+        // они также не могут содержать значения null
+//        List<Integer> list0 = List.of(1, 2, null); // java.lang.NullPointerException
+
+        // То есть запомним, налл они содержать не могут, и они НЕИЗМЕНЯЕМЫ
 
     }
 }
