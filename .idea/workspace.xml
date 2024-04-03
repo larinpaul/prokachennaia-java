@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aecb5587-34bf-48f0-b443-adbfa569d82f" name="Changes" comment="Урок 5 - Методы ArrayList и связанные с ним методы. Часть 3 (прокаченная Java)">
+      <change afterPath="$PROJECT_DIR$/src/collection/IteratorExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/ArrayListMethods5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/ArrayListMethods5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,22 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayListEx1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListMethods1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListMethods2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListMethods3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListMethods4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListMethods5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/paul/IdeaProjects/prokachennaia-java/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayListEx1.executor": "Run",
+    "Application.ArrayListMethods1.executor": "Run",
+    "Application.ArrayListMethods2.executor": "Run",
+    "Application.ArrayListMethods3.executor": "Run",
+    "Application.ArrayListMethods4.executor": "Run",
+    "Application.ArrayListMethods5.executor": "Run",
+    "Application.IteratorExample.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/home/paul/IdeaProjects/prokachennaia-java/src/Main.java"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.IteratorExample">
     <configuration name="ArrayListMethods5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.ArrayListMethods5" />
       <module name="prokachennaia-java" />
@@ -77,8 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.IteratorExample" />
+      <module name="prokachennaia-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorExample" />
         <item itemvalue="Application.ArrayListMethods5" />
       </list>
     </recent_temporary>
@@ -180,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712036908607</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Урок 5 - Методы ArrayList и связанные с ним методы. Часть 3 (прокаченная Java)">
+      <option name="closed" value="true" />
+      <created>1712041326628</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712041326628</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
